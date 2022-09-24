@@ -30,7 +30,7 @@ The list of the tables with a short description:
 
 ### Challenge description
 
-In the [analyze_DVD_rental.sql](https://github.com/Krisztana/DVD-Rental/blob/main/analyze_DVD_rental.sql) can find the codes for the following questions.
+In the [analyze_DVD_rental.sql](https://github.com/Krisztana/DVD-Rental/blob/main/analyze_DVD_rental.sql) can find the codes for the following questions:
 
 * Identify the top 10 customers and their email so we can reward them
 * Identify the bottom 10 customers and their emails 
