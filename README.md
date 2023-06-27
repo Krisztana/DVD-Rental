@@ -1,41 +1,44 @@
+## DVD Rental Analysis
+
+This repository presents a personal project where the PostgreSQL DVD Rental sample database was utilized for analysis.
+
+**Dataset**
+
+The dataset used in this project is the PostgreSQL DVD Rental sample database. It consists of 15 tables, each with its specific purpose. Here is a brief description of the tables:
+
+* actor: Stores actor data, including first name and last name
+* film: Contains film data such as title, release year, length, rating, etc
+* film_actor: Stores the relationships between films and actors
+* category: Holds film category data
+* film_category: Establishes the relationships between films and categories
+* store: Contains store-related data, including manager staff and address
+* inventory: Stores inventory data
+* rental: Contains rental transaction data
+* payment: Stores customer payment data
+* staff: Holds staff-related data
+* customer: Contains customer data
+* address: Stores address data for staff and customers
+* city: Stores city names
+* country: Stores country names
+
+  
+The DVD-Rental database can be downloaded [here](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
+ You can also refer to the DVD Rental ER diagram [here](https://github.com/Krisztana/DVD-Rental/blob/main/DVDrental_database_ER_model.jpg).
 
 
-It is a personal project where I used the PostgreSQL DVD Rental sample database 
+**Challenge Description**
 
-## Dataset
+The [analyze_DVD_rental.sql](https://github.com/Krisztana/DVD-Rental/blob/main/analyze_DVD_rental.sql) file contains SQL codes to address the following questions:
 
-It is a sample database with 15 tables.
-The list of the tables with a short description:
+* Identify the top 10 customers and their email addresses for potential rewards.
+* Identify the bottom 10 customers and their email addresses.
+* Determine the most profitable movie genres.
+* Analyze the customer base in countries where the business operates.
+* Identify the most profitable country for the business.
+* Calculate the average rental rate per movie genre.
+* Determine the number of rented films that were returned late, early, and on time.
 
-* actor – stores actors data including first name and last name.
-* film – stores film data such as title, release year, length, rating, etc.
-* film_actor – stores the relationships between films and actors.
-* category – stores film’s categories data.
-* film_category- stores the relationships between films and categories.
-* store – contains the store data including manager staff and address.
-* inventory – stores inventory data.
-* rental – stores rental data.
-* payment – stores customer’s payments.
-* staff – stores staff data.
-* customer – stores customer data.
-* address – stores address data for staff and customers
-* city – stores city names.
-* country – stores country names
+**Conclusion**
 
+This personal project showcases an analysis of the PostgreSQL DVD Rental sample database. By utilizing SQL queries, we explored various aspects of the dataset, including customer rankings, movie genre profitability, customer base analysis, and rental return statistics. The project aims to gain insights and make data-driven decisions based on the provided dataset.
 
-[Can download the DVD-Rental database here](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
-
-[Can see the DVD Rental ER diagram here](https://github.com/Krisztana/DVD-Rental/blob/main/DVDrental_database_ER_model.jpg).
-
-
-### Challenge description
-
-In the [analyze_DVD_rental.sql](https://github.com/Krisztana/DVD-Rental/blob/main/analyze_DVD_rental.sql) can find the codes for the following questions:
-
-* Identify the top 10 customers and their email so we can reward them
-* Identify the bottom 10 customers and their emails 
-* What are the most profitable movie genres?
-* What is the customer base in the countries where we have a presence?
-* Which country is the most profitable for the business?
-* What is the average rental rate per movie genre?
-* How many rented films were returned late, early and on time?
